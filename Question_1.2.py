@@ -17,7 +17,7 @@ lst=[1,2,3,4,5,6,7,8,9,10]
 print(list(filter(even_function,lst)))
 
 
-# Filter working with the help of def func
+# Filter working principle with the help of def func
 def even_function(lst):
     lst1=[]
     for i in lst:
@@ -28,13 +28,13 @@ def even_function(lst):
 lst=[1,2,3,4,5,6,7,8,9,10]
 print(even_function(lst))
 
-# Filter working wigth the help of list_comprehension
+# Filter working principle with the help of list_comprehension
 lst=[1,2,3,4,5,6,7,8,9,10]
 even=[i for i in lst if i%2 ==0]
 print(even)
 
 
-# Filter working with the help of for loop
+# Filter working principle with the help of for loop
 lst=[1,2,3,4,5,6,7,8,9,10]
 for i in lst:
     if i%2 ==0:
